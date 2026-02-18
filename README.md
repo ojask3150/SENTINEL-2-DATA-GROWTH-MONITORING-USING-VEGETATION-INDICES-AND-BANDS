@@ -67,7 +67,7 @@ The predicted images show correct spatial structure:
 - Pixel-level R²: **0.18**
 - Mean absolute error: **0.15**
 
-The model learned WHERE vegetation grows, but cannot predict exact NDVI values.
+The model successfully identifies **where** vegetation occurs but cannot predict **exactly how healthy** it will be—a fundamental limitation of satellite-only forecasting.
 
 ### 3. Feature Importance
 | Rank | Kharif | Importance | Rabi | Importance |
